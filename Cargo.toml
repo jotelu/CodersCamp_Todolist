@@ -1,0 +1,9 @@
+
+[package]
+name = "coingecko"
+version = "0.1.0"
+description = "CoinGecko v3 API"
+repository = "https://github.com/mmstick/coingecko-rs"
+license = "MIT"
+keywords = [ "cryptocurrency" ]
+authors = ["Michael Aaron Murphy <mmstick@pm.me>"]
