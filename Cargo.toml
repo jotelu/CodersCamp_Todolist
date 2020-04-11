@@ -22,3 +22,4 @@ derive_setters = "0.1"
 fomat-macros = "0.3"
 
 [dev-dependencies]
+smol = "1.2"
