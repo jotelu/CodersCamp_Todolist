@@ -8,3 +8,15 @@ At this time, async support is provided by [isahc](https://lib.rs/crates/isahc).
 ## Supported APIs
 
 - `/ping`
+- `/simple/price`
+- `/coins/list`
+- `/coins/{id}`
+- `/coins/markets`
+
+## Example
+
+```rust
+use coingecko::{Client, SimplePriceReq};
+
+pub fn main() {
+    smol::block_on(async {
