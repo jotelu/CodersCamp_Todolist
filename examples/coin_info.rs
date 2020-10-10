@@ -1,1 +1,1 @@
-pub fn m
+pub fn main() 
