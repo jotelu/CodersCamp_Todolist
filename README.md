@@ -36,3 +36,16 @@ pub fn main() {
 ```
 
 ```rust
+Ok(
+    {
+        "ethereum": {
+            "usd": 374.01,
+            "usd_24h_change": 0.6764058401035155,
+            "usd_24h_vol": 9235228681.348743,
+            "usd_market_cap": 42251015530.714905,
+            "last_updated_at": 1602472941,
+        },
+        "algorand": {
+            "usd_market_cap": 266053358.9639521,
+            "last_updated_at": 1602472968,
+            "usd": 0.331298,
