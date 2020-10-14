@@ -1,2 +1,2 @@
 pub fn main() {
-    s
+    smol::block_on
