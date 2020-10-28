@@ -4,4 +4,4 @@ pub fn main() {
 
         let client = coingecko::Client::new(http);
 
-        pr
+        println!("
