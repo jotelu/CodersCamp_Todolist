@@ -4,4 +4,4 @@ pub fn main() {
 
         let client = coingecko::Client::new(http);
 
-        println!("{:#?}", client.coin_
+        println!("{:#?}", client.coin_info("al
