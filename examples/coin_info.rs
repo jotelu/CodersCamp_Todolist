@@ -6,3 +6,4 @@ pub fn main() {
 
         println!("{:#?}", client.coin_info("algorand").await);
     })
+}
