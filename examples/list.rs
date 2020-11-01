@@ -1,2 +1,2 @@
 pub fn main() {
-    smol::block_
+    smol::block_on(async {
