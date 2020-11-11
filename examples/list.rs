@@ -4,4 +4,5 @@ pub fn main() {
 
         let client = coingecko::Client::new(http);
 
-        println!("{:#?}", client.coins_list(
+        println!("{:#?}", client.coins_list().await);
+ 
