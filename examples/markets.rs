@@ -1,1 +1,1 @@
-use coingecko::{Coi
+use coingecko::{CoinsMarketsR
