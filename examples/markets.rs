@@ -1,1 +1,1 @@
-use coingecko::{CoinsMarketsR
+use coingecko::{CoinsMarketsReq, Mar
