@@ -1,3 +1,3 @@
 use coingecko::{CoinsMarketsReq, MarketsReqOrder};
 
-pub f
+pub fn main() 
