@@ -1,4 +1,4 @@
 use coingecko::{CoinsMarketsReq, MarketsReqOrder};
 
 pub fn main() {
-    smol::
+    smol::block_on(asyn
