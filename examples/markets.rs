@@ -1,3 +1,4 @@
 use coingecko::{CoinsMarketsReq, MarketsReqOrder};
 
-pub fn main() 
+pub fn main() {
+    smol::
