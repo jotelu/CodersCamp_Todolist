@@ -6,4 +6,4 @@ pub fn main() {
 
         let client = coingecko::Client::new(http);
 
-        let req 
+        let req = CoinsMark
