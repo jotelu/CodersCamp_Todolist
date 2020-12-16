@@ -7,3 +7,4 @@ pub fn main() {
         let client = coingecko::Client::new(http);
 
         let req = CoinsMarketsReq::new("usd".into())
+            .page(27)
