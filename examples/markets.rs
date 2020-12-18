@@ -8,4 +8,4 @@ pub fn main() {
 
         let req = CoinsMarketsReq::new("usd".into())
             .page(27)
-            .p
+            .per_page(250
