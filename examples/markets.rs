@@ -9,4 +9,4 @@ pub fn main() {
         let req = CoinsMarketsReq::new("usd".into())
             .page(27)
             .per_page(250)
-            .price_change_percentage("1h
+            .price_change_percentage("1h,200d".into())
