@@ -13,4 +13,4 @@ pub fn main() {
             .order(MarketsReqOrder::MarketCapDesc)
             .sparkline();
 
-        print
+        println!("{:#?}", 
