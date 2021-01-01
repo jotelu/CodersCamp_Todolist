@@ -13,4 +13,4 @@ pub fn main() {
             .order(MarketsReqOrder::MarketCapDesc)
             .sparkline();
 
-        println!("{:#?}", 
+        println!("{:#?}", client.coins_mar
