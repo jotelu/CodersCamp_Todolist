@@ -11,4 +11,6 @@ pub fn main() {
             .per_page(250)
             .price_change_percentage("1h,200d".into())
             .order(MarketsReqOrder::MarketCapDesc)
-            .spar
+            .sparkline();
+
+  
