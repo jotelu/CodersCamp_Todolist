@@ -1,1 +1,1 @@
-use coingecko::{Client, Simp
+use coingecko::{Client, SimplePriceReq};
