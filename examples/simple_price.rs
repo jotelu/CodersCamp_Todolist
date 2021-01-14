@@ -1,3 +1,3 @@
 use coingecko::{Client, SimplePriceReq};
 
-pub
+pub fn main
