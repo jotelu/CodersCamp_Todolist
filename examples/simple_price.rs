@@ -1,3 +1,4 @@
 use coingecko::{Client, SimplePriceReq};
 
-pub fn main
+pub fn main() {
+    smol::b
