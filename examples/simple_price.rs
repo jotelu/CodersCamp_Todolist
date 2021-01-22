@@ -2,4 +2,4 @@ use coingecko::{Client, SimplePriceReq};
 
 pub fn main() {
     smol::block_on(async {
-        let h
+        let http = isahc:
