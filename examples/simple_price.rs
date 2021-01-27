@@ -6,4 +6,4 @@ pub fn main() {
 
         let client = Client::new(http);
 
-        let req = SimplePriceReq::new("eth
+        let req = SimplePriceReq::new("ethereum,algorand,t
