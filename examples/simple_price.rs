@@ -6,4 +6,5 @@ pub fn main() {
 
         let client = Client::new(http);
 
-        let req = SimplePriceReq::new("ethereum,algorand,tezos".into(), "usd".into()
+        let req = SimplePriceReq::new("ethereum,algorand,tezos".into(), "usd".into())
+         
