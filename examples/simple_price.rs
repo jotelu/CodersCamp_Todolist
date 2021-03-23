@@ -7,4 +7,5 @@ pub fn main() {
         let client = Client::new(http);
 
         let req = SimplePriceReq::new("ethereum,algorand,tezos".into(), "usd".into())
-            .include_market
+            .include_market_cap()
+      
