@@ -8,4 +8,5 @@ pub fn main() {
 
         let req = SimplePriceReq::new("ethereum,algorand,tezos".into(), "usd".into())
             .include_market_cap()
-            .includ
+            .include_24hr_vol()
+    
