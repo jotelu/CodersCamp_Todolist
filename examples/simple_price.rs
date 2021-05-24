@@ -10,4 +10,4 @@ pub fn main() {
             .include_market_cap()
             .include_24hr_vol()
             .include_24hr_change()
-            .include_last_upd
+            .include_last_updated_at();
