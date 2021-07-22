@@ -12,4 +12,4 @@ pub fn main() {
             .include_24hr_change()
             .include_last_updated_at();
 
-        println!("{:#?}", client.simp
+        println!("{:#?}", client.simple_price(req
