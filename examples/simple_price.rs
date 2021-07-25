@@ -13,3 +13,5 @@ pub fn main() {
             .include_last_updated_at();
 
         println!("{:#?}", client.simple_price(req).await);
+    })
+}
