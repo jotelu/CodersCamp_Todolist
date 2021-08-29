@@ -1,3 +1,4 @@
 use std::collections::HashMap;
 
-/// Information about a coin. INC
+/// Information about a coin. INCOMPLETE
+#[der
