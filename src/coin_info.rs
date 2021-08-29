@@ -1,3 +1,3 @@
 use std::collections::HashMap;
 
-/// Inform
+/// Information a
