@@ -1,4 +1,4 @@
 use std::collections::HashMap;
 
 /// Information about a coin. INCOMPLETE
-#[der
+#[derive(Debug, 
