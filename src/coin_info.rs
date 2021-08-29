@@ -1,3 +1,3 @@
 use std::collections::HashMap;
 
-/// Information a
+/// Information about a coin. INC
