@@ -6,3 +6,4 @@ pub struct CoinInfo {
     pub id: String,
     pub symbol: String,
     pub name: String,
+    pub asset_platf
