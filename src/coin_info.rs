@@ -5,4 +5,4 @@ use std::collections::HashMap;
 pub struct CoinInfo {
     pub id: String,
     pub symbol: String,
-    pub na
+    pub name: String,
