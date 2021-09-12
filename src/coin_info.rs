@@ -4,4 +4,4 @@ use std::collections::HashMap;
 #[derive(Debug, Deserialize)]
 pub struct CoinInfo {
     pub id: String,
-    pub s
+    pub symbol: Strin
