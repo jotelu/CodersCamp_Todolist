@@ -6,4 +6,5 @@ pub struct CoinInfo {
     pub id: String,
     pub symbol: String,
     pub name: String,
-    pub asset_platform_id: Opti
+    pub asset_platform_id: Option<u64>,
+    
