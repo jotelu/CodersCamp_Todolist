@@ -9,4 +9,5 @@ pub struct CoinInfo {
     pub asset_platform_id: Option<u64>,
     pub block_time_in_minutes: u64,
     pub hashing_algorithm: Option<String>,
-    pub categories: Vec<String
+    pub categories: Vec<String>,
+    pub p
