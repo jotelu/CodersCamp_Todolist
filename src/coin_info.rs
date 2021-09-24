@@ -10,4 +10,4 @@ pub struct CoinInfo {
     pub block_time_in_minutes: u64,
     pub hashing_algorithm: Option<String>,
     pub categories: Vec<String>,
-    pub p
+    pub public_n
