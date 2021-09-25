@@ -11,4 +11,4 @@ pub struct CoinInfo {
     pub hashing_algorithm: Option<String>,
     pub categories: Vec<String>,
     pub public_notice: Option<String>,
- 
+    pub l
