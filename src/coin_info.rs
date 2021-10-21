@@ -12,4 +12,4 @@ pub struct CoinInfo {
     pub categories: Vec<String>,
     pub public_notice: Option<String>,
     pub localization: HashMap<String, String>,
-    pub description: HashMap<Strin
+    pub description: HashMap<String, String>
