@@ -13,4 +13,4 @@ pub struct CoinInfo {
     pub public_notice: Option<String>,
     pub localization: HashMap<String, String>,
     pub description: HashMap<String, String>,
-    pub l
+    pub links: Links,
