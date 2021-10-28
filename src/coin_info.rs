@@ -14,3 +14,4 @@ pub struct CoinInfo {
     pub localization: HashMap<String, String>,
     pub description: HashMap<String, String>,
     pub links: Links,
+    pub image
