@@ -17,4 +17,4 @@ pub struct CoinInfo {
     pub image: ImageLinks,
 }
 
-#[derive(Debu
+#[derive(Debug, Deserialize)]
