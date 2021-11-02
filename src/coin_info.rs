@@ -15,3 +15,6 @@ pub struct CoinInfo {
     pub description: HashMap<String, String>,
     pub links: Links,
     pub image: ImageLinks,
+}
+
+#[derive(Debu
