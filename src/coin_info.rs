@@ -18,3 +18,4 @@ pub struct CoinInfo {
 }
 
 #[derive(Debug, Deserialize)]
+pub struc
