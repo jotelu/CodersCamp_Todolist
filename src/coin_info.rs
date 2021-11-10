@@ -18,4 +18,5 @@ pub struct CoinInfo {
 }
 
 #[derive(Debug, Deserialize)]
-pub struct ImageLinks
+pub struct ImageLinks {
+    pub th
