@@ -21,4 +21,4 @@ pub struct CoinInfo {
 pub struct ImageLinks {
     pub thumb: String,
     pub small: String,
-    p
+    pub large: 
