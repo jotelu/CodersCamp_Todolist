@@ -20,4 +20,4 @@ pub struct CoinInfo {
 #[derive(Debug, Deserialize)]
 pub struct ImageLinks {
     pub thumb: String,
-    
+    pub small: 
