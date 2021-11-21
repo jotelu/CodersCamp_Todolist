@@ -24,4 +24,4 @@ pub struct ImageLinks {
     pub large: String,
 }
 
-#[derive(Debug,
+#[derive(Debug, Deserialize)]
