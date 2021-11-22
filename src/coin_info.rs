@@ -25,4 +25,5 @@ pub struct ImageLinks {
 }
 
 #[derive(Debug, Deserialize)]
-pub str
+pub struct Links {
+ 
