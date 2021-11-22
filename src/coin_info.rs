@@ -26,4 +26,4 @@ pub struct ImageLinks {
 
 #[derive(Debug, Deserialize)]
 pub struct Links {
- 
+    pub homepage
