@@ -26,4 +26,5 @@ pub struct ImageLinks {
 
 #[derive(Debug, Deserialize)]
 pub struct Links {
-    pub homepage: Vec<Strin
+    pub homepage: Vec<String>,
+    pub
