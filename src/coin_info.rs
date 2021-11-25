@@ -27,4 +27,4 @@ pub struct ImageLinks {
 #[derive(Debug, Deserialize)]
 pub struct Links {
     pub homepage: Vec<String>,
-    pub blockchain
+    pub blockchain_site: Vec<St
