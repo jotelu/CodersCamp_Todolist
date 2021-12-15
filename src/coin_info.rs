@@ -28,4 +28,5 @@ pub struct ImageLinks {
 pub struct Links {
     pub homepage: Vec<String>,
     pub blockchain_site: Vec<String>,
-    pub official_forum_url: Vec<Str
+    pub official_forum_url: Vec<String>,
+    pu
