@@ -29,4 +29,4 @@ pub struct Links {
     pub homepage: Vec<String>,
     pub blockchain_site: Vec<String>,
     pub official_forum_url: Vec<String>,
-    pu
+    pub chat_url: 
