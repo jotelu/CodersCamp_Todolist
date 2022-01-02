@@ -31,4 +31,4 @@ pub struct Links {
     pub official_forum_url: Vec<String>,
     pub chat_url: Vec<String>,
     pub announcement_url: Vec<String>,
-    pub twitte
+    pub twitter_screen_
