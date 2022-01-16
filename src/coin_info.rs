@@ -32,4 +32,5 @@ pub struct Links {
     pub chat_url: Vec<String>,
     pub announcement_url: Vec<String>,
     pub twitter_screen_name: Option<String>,
-    pub facebook_username: Op
+    pub facebook_username: Option<String>,
+ 
