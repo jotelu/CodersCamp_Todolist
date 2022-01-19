@@ -33,4 +33,4 @@ pub struct Links {
     pub announcement_url: Vec<String>,
     pub twitter_screen_name: Option<String>,
     pub facebook_username: Option<String>,
-    pub 
+    pub bitcointa
