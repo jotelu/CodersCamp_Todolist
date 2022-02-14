@@ -34,4 +34,5 @@ pub struct Links {
     pub twitter_screen_name: Option<String>,
     pub facebook_username: Option<String>,
     pub bitcointalk_thread_identifier: Option<u64>,
-    pub telegram_channel_identifier: Option<S
+    pub telegram_channel_identifier: Option<String>,
+ 
