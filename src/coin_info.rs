@@ -36,4 +36,4 @@ pub struct Links {
     pub bitcointalk_thread_identifier: Option<u64>,
     pub telegram_channel_identifier: Option<String>,
     pub subreddit_url: Option<String>,
-    p
+    pub repos_url:
