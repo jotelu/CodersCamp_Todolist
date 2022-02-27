@@ -35,4 +35,5 @@ pub struct Links {
     pub facebook_username: Option<String>,
     pub bitcointalk_thread_identifier: Option<u64>,
     pub telegram_channel_identifier: Option<String>,
-    pub subreddit_url: Option<
+    pub subreddit_url: Option<String>,
+    p
