@@ -22,3 +22,14 @@ pub use crate::simple_price::*;
 pub use crate::market::*;
 
 const API: &str = "https://api.coingecko.com/api/v3/";
+
+pub struct Client {
+    http: HttpClient,
+}
+
+impl Client {
+    pub fn new(http: HttpClient) -> Self {
+        Self { http }
+    }
+
+    /// Check if CoinGecko is reachable
