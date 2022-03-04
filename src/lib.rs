@@ -33,3 +33,10 @@ impl Client {
     }
 
     /// Check if CoinGecko is reachable
+    pub async fn ping(&self) -> Result<Ping, Error> {
+        const PING: &str = concatcp!(crate::API, "/ping");
+
+        utils::get_json(&self.http, PING).await
+    }
+
+    /// Fetches the current price of any cryptocurrencies in any other supported currencies you need.
