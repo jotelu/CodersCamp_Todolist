@@ -53,3 +53,10 @@ impl Client {
         const COINS: &str = concatcp!(crate::API, "/coins");
 
         let uri = fomat!((COINS) "/" (coin));
+
+        utils::get_json(&self.http, &uri).await
+    }
+
+    /// Fetches a list of coins supported by CoinGecko
+    pub async fn coins_list(&self) -> Result<Vec<Coin>, Error> {
+        const COINS_LIST: &str = concatcp!(crate::API, "/coins/list");
