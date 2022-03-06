@@ -40,3 +40,16 @@ impl Client {
     }
 
     /// Fetches the current price of any cryptocurrencies in any other supported currencies you need.
+    pub async fn simple_price(&self, req: SimplePriceReq) -> Result<SimplePrices, Error> {
+        const SIMPLE: &str = concatcp!(crate::API, "/simple/price");
+
+        let uri = fomat!((SIMPLE) "?" (req.query()));
+
+        utils::get_json(&self.http, &uri).await
+    }
+
+    /// Fetches detailed information about a particular coin by its ID.
+    pub async fn coin_info(&self, coin: &str) -> Result<CoinInfo, Error> {
+        const COINS: &str = concatcp!(crate::API, "/coins");
+
+        let uri = fomat!((COINS) "/" (coin));
