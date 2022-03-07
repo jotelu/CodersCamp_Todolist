@@ -60,3 +60,12 @@ impl Client {
     /// Fetches a list of coins supported by CoinGecko
     pub async fn coins_list(&self) -> Result<Vec<Coin>, Error> {
         const COINS_LIST: &str = concatcp!(crate::API, "/coins/list");
+
+        utils::get_json(&self.http, COINS_LIST).await
+    }
+
+    /// Fetches (paginated) market data for all coins or specific coins
+    pub async fn coins_markets(&self, req: CoinsMarketsReq) -> Result<Vec<Market>, Error> {
+        const COINS_MARKETS: &str = concatcp!(crate::API, "/coins/markets");
+
+        let uri = fomat!((COINS_MARKETS) "?" (req.query()));
