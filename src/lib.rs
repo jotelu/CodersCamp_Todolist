@@ -82,3 +82,11 @@ pub enum Error {
     Io(#[from] std::io::Error),
     #[error("Deserialization error")]
     Deserialization(#[from] serde_json::Error),
+}
+
+#[derive(Debug, Deserialize)]
+pub struct Coin {
+    pub id: String,
+    pub symbol: String,
+    pub name: String,
+}
