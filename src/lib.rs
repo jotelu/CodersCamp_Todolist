@@ -69,3 +69,16 @@ impl Client {
         const COINS_MARKETS: &str = concatcp!(crate::API, "/coins/markets");
 
         let uri = fomat!((COINS_MARKETS) "?" (req.query()));
+
+        utils::get_json(&self.http, &uri).await
+    }
+}
+
+#[derive(Error, Debug)]
+pub enum Error {
+    #[error("HTTP error")]
+    Http(#[from] isahc::Error),
+    #[error("IO error")]
+    Io(#[from] std::io::Error),
+    #[error("Deserialization error")]
+    Deserialization(#[from] serde_json::Error),
