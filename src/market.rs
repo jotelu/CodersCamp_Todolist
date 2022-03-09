@@ -23,3 +23,12 @@ pub struct Market {
     pub total_supply: Option<Decimal>,
     pub max_supply: Option<Decimal>,
     pub ath: Option<Decimal>,
+    pub ath_change_percentage: Option<Decimal>,
+    pub ath_date: Option<String>,
+    pub atl: Option<Decimal>,
+    pub atl_change_percentage: Option<Decimal>,
+    pub atl_date: Option<String>,
+    pub roi: Option<Roi>,
+    pub last_updated: Option<String>,
+    /// only available if specified in the request
+    pub sparkline_in_7d: Option<SparklineIn7D>,
