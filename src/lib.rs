@@ -90,3 +90,8 @@ pub struct Coin {
     pub symbol: String,
     pub name: String,
 }
+
+#[derive(Debug, Deserialize)]
+pub struct Ping {
+    gecko_says: String,
+}
