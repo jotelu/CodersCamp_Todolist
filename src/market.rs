@@ -32,3 +32,17 @@ pub struct Market {
     pub last_updated: Option<String>,
     /// only available if specified in the request
     pub sparkline_in_7d: Option<SparklineIn7D>,
+
+    /// only available if specified in the request's price_change_percentage, even then it can be None
+    pub price_change_percentage_14d_in_currency: Option<Decimal>,
+    /// only available if specified in the request's price_change_percentage, even then it can be None
+    pub price_change_percentage_1h_in_currency: Option<Decimal>,
+    /// only available if specified in the request's price_change_percentage, even then it can be None
+    pub price_change_percentage_1y_in_currency: Option<Decimal>,
+    /// only available if specified in the request's price_change_percentage, even then it can be None
+    pub price_change_percentage_200d_in_currency: Option<Decimal>,
+    /// only available if specified in the request's price_change_percentage, even then it can be None
+    pub price_change_percentage_24h_in_currency: Option<Decimal>,
+    /// only available if specified in the request's price_change_percentage, even then it can be None
+    pub price_change_percentage_30d_in_currency: Option<Decimal>,
+    /// only available if specified in the request's price_change_percentage, even then it can be None
