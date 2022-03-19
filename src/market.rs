@@ -46,3 +46,12 @@ pub struct Market {
     /// only available if specified in the request's price_change_percentage, even then it can be None
     pub price_change_percentage_30d_in_currency: Option<Decimal>,
     /// only available if specified in the request's price_change_percentage, even then it can be None
+    pub price_change_percentage_7d_in_currency: Option<Decimal>
+}
+
+#[derive(Debug, Deserialize)]
+pub struct Roi {
+    pub times: Option<Decimal>,
+    pub currency: String,
+    pub percentage: Option<Decimal>,
+}
