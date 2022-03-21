@@ -78,3 +78,20 @@ pub struct CoinsMarketsReq {
     /// sort results by field
     #[setters(strip_option)]
     pub order: Option<MarketsReqOrder>,
+
+    /// total results per page, valid values: 1...250
+    #[setters(strip_option)]
+    pub per_page: Option<u8>,
+
+    #[setters(strip_option)]
+    pub page: Option<u32>,
+
+    #[setters(bool)]
+    pub sparkline: bool,
+
+    /// possible values (multiple, comma-separated): 1h, 24h, 7d, 14d, 30d, 200d, 1y
+    #[setters(strip_option)]
+    pub price_change_percentage: Option<String>,
+}
+
+impl CoinsMarketsReq {
