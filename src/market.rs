@@ -55,3 +55,11 @@ pub struct Roi {
     pub currency: String,
     pub percentage: Option<Decimal>,
 }
+
+#[derive(Debug, Deserialize)]
+pub struct SparklineIn7D {
+    pub price: Vec<Decimal>,
+}
+
+#[derive(Default, Setters)]
+pub struct CoinsMarketsReq {
