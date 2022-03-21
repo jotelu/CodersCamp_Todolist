@@ -63,3 +63,10 @@ pub struct SparklineIn7D {
 
 #[derive(Default, Setters)]
 pub struct CoinsMarketsReq {
+    /// target currency of market data
+    #[setters(skip)]
+    pub vs_currency: String,
+
+    /// ids of coins, comma-separated
+    #[setters(strip_option)]
+    pub ids: Option<String>,
