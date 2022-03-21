@@ -70,3 +70,11 @@ pub struct CoinsMarketsReq {
     /// ids of coins, comma-separated
     #[setters(strip_option)]
     pub ids: Option<String>,
+
+    /// filter by coin category
+    #[setters(strip_option)]
+    pub category: Option<String>,
+
+    /// sort results by field
+    #[setters(strip_option)]
+    pub order: Option<MarketsReqOrder>,
