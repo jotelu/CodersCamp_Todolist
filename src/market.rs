@@ -95,3 +95,11 @@ pub struct CoinsMarketsReq {
 }
 
 impl CoinsMarketsReq {
+    pub fn new(vs_currency: String) -> Self {
+        Self {
+            vs_currency,
+            ..Default::default()
+        }
+    }
+
+    pub fn query(&self) -> String {
