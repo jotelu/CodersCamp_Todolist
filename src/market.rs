@@ -103,3 +103,14 @@ impl CoinsMarketsReq {
     }
 
     pub fn query(&self) -> String {
+        fomat!(
+            "vs_currency=" (self.vs_currency)
+            if let Some(ids) = &self.ids {
+                "&ids=" (ids)
+            }
+            if let Some(category) = &self.category {
+                "&category=" (category)
+            }
+            if let Some(order) = &self.order {
+                "&order=" (order)
+            }
