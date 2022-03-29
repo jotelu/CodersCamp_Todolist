@@ -114,3 +114,18 @@ impl CoinsMarketsReq {
             if let Some(order) = &self.order {
                 "&order=" (order)
             }
+            if let Some(per_page) = self.per_page {
+                "&per_page=" (per_page)
+            }
+            if let Some(page) = self.page {
+                "&page=" (page)
+            }
+            if (self.sparkline) {
+                "&sparkline=true"
+            }
+            if let Some(price_change_percentage) = &self.price_change_percentage {
+                "&price_change_percentage=" (price_change_percentage)
+            }
+        )
+    }
+}
