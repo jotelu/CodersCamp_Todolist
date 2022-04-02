@@ -129,3 +129,11 @@ impl CoinsMarketsReq {
         )
     }
 }
+
+pub enum MarketsReqOrder {
+    GeckoDesc,
+    GeckoAsc,
+    MarketCapAsc,
+    MarketCapDesc,
+    VolumeAsc,
+    VolumeDesc,
