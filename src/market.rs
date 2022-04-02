@@ -148,3 +148,10 @@ impl Display for MarketsReqOrder {
             MarketsReqOrder::GeckoAsc => "gecko_asc",
             MarketsReqOrder::MarketCapAsc => "market_cap_asc",
             MarketsReqOrder::MarketCapDesc => "market_cap_desc",
+            MarketsReqOrder::VolumeAsc => "volume_asc",
+            MarketsReqOrder::VolumeDesc => "volume_desc",
+            MarketsReqOrder::IdAsc => "id_asc",
+            MarketsReqOrder::IdDesc => "id_desc",
+        })
+    }
+}
