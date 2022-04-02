@@ -137,3 +137,14 @@ pub enum MarketsReqOrder {
     MarketCapDesc,
     VolumeAsc,
     VolumeDesc,
+    IdAsc,
+    IdDesc,
+}
+
+impl Display for MarketsReqOrder {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{}", match self {
+            MarketsReqOrder::GeckoDesc => "gecko_desc",
+            MarketsReqOrder::GeckoAsc => "gecko_asc",
+            MarketsReqOrder::MarketCapAsc => "market_cap_asc",
+            MarketsReqOrder::MarketCapDesc => "market_cap_desc",
