@@ -1,1 +1,1 @@
-use rus
+use rust_decimal::Dec
