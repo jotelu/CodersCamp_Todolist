@@ -1,2 +1,2 @@
 use rust_decimal::Decimal;
-use std::collections::
+use std::collections::HashMap;
