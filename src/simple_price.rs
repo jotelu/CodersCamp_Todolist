@@ -1,4 +1,4 @@
 use rust_decimal::Decimal;
 use std::collections::HashMap;
 
-pub type SimplePrice = Ha
+pub type SimplePrice = HashMap<String, 
