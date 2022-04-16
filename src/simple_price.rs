@@ -4,3 +4,4 @@ use std::collections::HashMap;
 pub type SimplePrice = HashMap<String, Decimal>;
 pub type SimplePrices = HashMap<String, SimplePrice>;
 
+#[derive(
