@@ -5,4 +5,5 @@ pub type SimplePrice = HashMap<String, Decimal>;
 pub type SimplePrices = HashMap<String, SimplePrice>;
 
 #[derive(Default, Setters)]
-pub struct SimplePrice
+pub struct SimplePriceReq {
+   
