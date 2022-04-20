@@ -6,4 +6,4 @@ pub type SimplePrices = HashMap<String, SimplePrice>;
 
 #[derive(Default, Setters)]
 pub struct SimplePriceReq {
-    /// ids
+    /// ids of c
