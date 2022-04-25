@@ -8,4 +8,6 @@ pub type SimplePrices = HashMap<String, SimplePrice>;
 pub struct SimplePriceReq {
     /// ids of coins, comma-separated
     #[setters(skip)]
-    pub ids: Stri
+    pub ids: String,
+
+    //
