@@ -10,4 +10,4 @@ pub struct SimplePriceReq {
     #[setters(skip)]
     pub ids: String,
 
-    //
+    /// ids of curren
