@@ -11,4 +11,4 @@ pub struct SimplePriceReq {
     pub ids: String,
 
     /// ids of currency pairs, comma-separated
-    #[s
+    #[setters(sk
