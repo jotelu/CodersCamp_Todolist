@@ -12,4 +12,4 @@ pub struct SimplePriceReq {
 
     /// ids of currency pairs, comma-separated
     #[setters(skip)]
-    pu
+    pub vs_currencie
