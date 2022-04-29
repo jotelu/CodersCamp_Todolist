@@ -14,4 +14,5 @@ pub struct SimplePriceReq {
     #[setters(skip)]
     pub vs_currencies: String,
 
-    #[setters(bool)
+    #[setters(bool)]
+    pub inc
