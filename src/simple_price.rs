@@ -15,4 +15,4 @@ pub struct SimplePriceReq {
     pub vs_currencies: String,
 
     #[setters(bool)]
-    pub inc
+    pub include_market_cap: 
