@@ -17,4 +17,5 @@ pub struct SimplePriceReq {
     #[setters(bool)]
     pub include_market_cap: bool,
 
-    #[setter
+    #[setters(bool)]
+ 
