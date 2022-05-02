@@ -18,4 +18,6 @@ pub struct SimplePriceReq {
     pub include_market_cap: bool,
 
     #[setters(bool)]
-    pub include_24hr_vol: bool
+    pub include_24hr_vol: bool,
+
+    #[setters(bool
