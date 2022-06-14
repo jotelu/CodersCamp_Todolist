@@ -21,4 +21,6 @@ pub struct SimplePriceReq {
     pub include_24hr_vol: bool,
 
     #[setters(bool)]
-    pub include_24hr_chan
+    pub include_24hr_change: bool,
+
+   
