@@ -24,4 +24,4 @@ pub struct SimplePriceReq {
     pub include_24hr_change: bool,
 
     #[setters(bool)]
-    pub
+    pub include_las
