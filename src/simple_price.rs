@@ -26,3 +26,5 @@ pub struct SimplePriceReq {
     #[setters(bool)]
     pub include_last_updated_at: bool,
 }
+
+impl Si
