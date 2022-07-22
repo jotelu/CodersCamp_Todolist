@@ -28,4 +28,4 @@ pub struct SimplePriceReq {
 }
 
 impl SimplePriceReq {
-    p
+    pub fn new(id
