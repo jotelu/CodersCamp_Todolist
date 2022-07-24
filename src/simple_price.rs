@@ -28,4 +28,4 @@ pub struct SimplePriceReq {
 }
 
 impl SimplePriceReq {
-    pub fn new(ids: String, vs_curren
+    pub fn new(ids: String, vs_currencies: String)
