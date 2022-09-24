@@ -31,4 +31,5 @@ impl SimplePriceReq {
     pub fn new(ids: String, vs_currencies: String) -> Self {
         Self {
             ids,
-            vs_cur
+            vs_currencies,
+    
