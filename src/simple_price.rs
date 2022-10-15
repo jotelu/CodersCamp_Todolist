@@ -32,4 +32,4 @@ impl SimplePriceReq {
         Self {
             ids,
             vs_currencies,
-            ..Defa
+            ..Default::defaul
