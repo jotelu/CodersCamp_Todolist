@@ -33,4 +33,7 @@ impl SimplePriceReq {
             ids,
             vs_currencies,
             ..Default::default()
-    
+        }
+    }
+
+    pu
