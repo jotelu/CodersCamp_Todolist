@@ -36,4 +36,4 @@ impl SimplePriceReq {
         }
     }
 
-    pu
+    pub fn query
