@@ -36,4 +36,5 @@ impl SimplePriceReq {
         }
     }
 
-    pub fn query(&self) ->
+    pub fn query(&self) -> String {
+   
