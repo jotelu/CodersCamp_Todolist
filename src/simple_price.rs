@@ -37,4 +37,4 @@ impl SimplePriceReq {
     }
 
     pub fn query(&self) -> String {
-   
+        fomat!(
