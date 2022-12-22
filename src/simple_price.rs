@@ -39,4 +39,4 @@ impl SimplePriceReq {
     pub fn query(&self) -> String {
         fomat!(
             "ids=" (self.ids)
-            "&vs_currencies=" (self.v
+            "&vs_currencies=" (self.vs_currencies)
