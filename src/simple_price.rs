@@ -40,3 +40,4 @@ impl SimplePriceReq {
         fomat!(
             "ids=" (self.ids)
             "&vs_currencies=" (self.vs_currencies)
+            if
