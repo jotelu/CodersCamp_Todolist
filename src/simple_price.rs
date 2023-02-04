@@ -41,4 +41,4 @@ impl SimplePriceReq {
             "ids=" (self.ids)
             "&vs_currencies=" (self.vs_currencies)
             if (self.include_market_cap) {
-                "&include_
+                "&include_market_ca
