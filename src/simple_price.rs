@@ -42,4 +42,5 @@ impl SimplePriceReq {
             "&vs_currencies=" (self.vs_currencies)
             if (self.include_market_cap) {
                 "&include_market_cap=true"
-           
+            }
+            if (s
