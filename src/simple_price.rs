@@ -44,4 +44,5 @@ impl SimplePriceReq {
                 "&include_market_cap=true"
             }
             if (self.include_24hr_vol) {
-                "&include_24hr_vo
+                "&include_24hr_vol=true"
+   
