@@ -46,4 +46,4 @@ impl SimplePriceReq {
             if (self.include_24hr_vol) {
                 "&include_24hr_vol=true"
             }
-            if (self.include
+            if (self.include_24hr_chang
