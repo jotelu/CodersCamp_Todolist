@@ -49,4 +49,5 @@ impl SimplePriceReq {
             if (self.include_24hr_change) {
                 "&include_24hr_change=true"
             }
-            if (self.include_last_update
+            if (self.include_last_updated_at) {
+   
