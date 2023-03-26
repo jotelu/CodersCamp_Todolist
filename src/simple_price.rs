@@ -50,4 +50,4 @@ impl SimplePriceReq {
                 "&include_24hr_change=true"
             }
             if (self.include_last_updated_at) {
-                "&
+                "&include_l
