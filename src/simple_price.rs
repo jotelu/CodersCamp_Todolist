@@ -53,3 +53,5 @@ impl SimplePriceReq {
                 "&include_last_updated_at=true"
             }
         )
+    }
+}
