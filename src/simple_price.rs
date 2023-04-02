@@ -52,3 +52,4 @@ impl SimplePriceReq {
             if (self.include_last_updated_at) {
                 "&include_last_updated_at=true"
             }
+        )
