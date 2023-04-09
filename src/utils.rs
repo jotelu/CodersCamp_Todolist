@@ -1,2 +1,2 @@
 use crate::Error;
-use futures
+use futures_lite::io
