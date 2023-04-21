@@ -4,4 +4,4 @@ use isahc::http::Request;
 use isahc::HttpClient;
 use serde::de::DeserializeOwned;
 
-pub async fn get_json<T: DeserializeOwned>(clie
+pub async fn get_json<T: DeserializeOwned>(client: &HttpC
