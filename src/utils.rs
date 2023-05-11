@@ -8,3 +8,4 @@ pub async fn get_json<T: DeserializeOwned>(client: &HttpClient, uri: &str) -> Re
     let request = Request::get(uri)
         .header("content-type", "application/javascript")
         .body(())
+        .u
