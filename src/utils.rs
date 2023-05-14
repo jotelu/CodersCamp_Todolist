@@ -11,3 +11,5 @@ pub async fn get_json<T: DeserializeOwned>(client: &HttpClient, uri: &str) -> Re
         .unwrap();
 
     let mut bytes = Vec::new();
+
+    client
