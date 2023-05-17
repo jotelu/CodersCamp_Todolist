@@ -14,4 +14,5 @@ pub async fn get_json<T: DeserializeOwned>(client: &HttpClient, uri: &str) -> Re
 
     client
         .send_async(request)
-        .a
+        .await?
+        .i
