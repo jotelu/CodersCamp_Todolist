@@ -13,4 +13,4 @@ pub async fn get_json<T: DeserializeOwned>(client: &HttpClient, uri: &str) -> Re
     let mut bytes = Vec::new();
 
     client
-        .send_async(
+        .send_async(request)
