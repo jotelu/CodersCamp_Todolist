@@ -19,4 +19,4 @@ pub async fn get_json<T: DeserializeOwned>(client: &HttpClient, uri: &str) -> Re
         .read_to_end(&mut bytes)
         .await?;
 
-    serde_json::from_slice(&bytes).map
+    serde_json::from_slice(&bytes).map_err(Erro
